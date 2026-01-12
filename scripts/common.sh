@@ -23,8 +23,8 @@ readonly RESET='\033[0m'
 # ============================================================================
 
 # System information
-readonly OS="$(uname -s | tr '[:upper:]' '[:lower:]')"
-readonly ARCH="$(uname -m)"
+readonly OS=$(uname -s)
+readonly ARCH=$(uname -m)
 
 IS_WSL=false
 if [[ -f /proc/version ]] && grep -qi microsoft /proc/version 2>/dev/null; then
