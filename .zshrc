@@ -63,3 +63,6 @@ fi
 if command -v starship >/dev/null 2>&1; then
     eval "$(starship init zsh)"
 fi
+
+# bun completions
+[ -s "/Users/sergiu/.bun/_bun" ] && source "/Users/sergiu/.bun/_bun"
