@@ -3,8 +3,8 @@
 [init]
 	defaultBranch = main
 [user]
-	email = sergiu.a.bugeac@gmail.com
-	name = 5ergiu
+	email = youssef_tanios@yahoo.com
+	name = youssef
 	signingkey = ~/.ssh/id_rsa.pub
 [gpg]
 	format = ssh
